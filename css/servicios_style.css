@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #F8CF2C;
+}
+
+header{
+	width: 1094px;
+	height: 227px;
+	margin: 0 auto;
+	background-color: #D70F0F;
+	display: flex;
+	border-left: 3px solid #B81919;
+	border-top: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+}
+
+div.header-article-vacio{
+	width: 366.66px;
+}
+
+div.header-article-logo{
+	width: 366.66px;
+	height: 230px;
+}
+
+img.mcdonalds-logo{
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+div.header-article-redes{
+	width: 366.66px;
+	height: 230px;
+}
+
+img.mcdonalds-redes{
+	margin-top: 185px;
+	margin-left: 165px;
+}
+
+nav.navegador{
+	width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+}
+
+div.menu-espacio-extra{
+	width: 400px;
+	height: 60px;
+	background-color: #D70F0F;
+	border-left: 3px solid #B81919;
+}
+
+div.menu{
+	width: 590px;
+	height: 37px;
+	background-color: #FFFFFF;
+	padding-top: 19px;
+	padding-left: 110px;
+	border: 4px solid #B81919;
+	border-bottom: 0;
+}
+
+a.menu-navegador{
+	margin-left: 60px;
+	text-decoration: none;
+	background-color: #F8CF2C;
+	padding: 10px;
+	font-family: "Tahoma", "Arial";
+	color: #D70F0F;
+	border-radius: 10px;
+	border: 2px solid #B81919;
+}
+
+a.servicios{
+	border-bottom: 7px solid #B81919;
+}
+
+a.menu-navegador:hover{
+	background-color: #FBE44D;
+}
+
+nav.menu{
+	width: 844px;
+	height: 35px;
+	margin: 0 auto;
+	padding-top: 11px;
+	padding-left: 250px;
+	background-color: #D70F0F;
+	border-top: 3px solid #B81919;
+	border-left: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+}
+
+a.menu{
+	margin-left: 10px;
+	text-decoration: none;
+	color: #F8CF2C;
+	font-family: "Tahoma","Arial";
+	padding: 5px;
+}
+
+a.menu:hover{
+	position: relative;
+	background-color: rgba(248,207,44,0.4);
+}
+
+a.menu:active{
+	border-bottom: 3px solid #B81919;
+}
+
+section.menu{
+	width: 1094px;
+	height: 5345px;
+	margin: 0 auto;
+	border-left: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+	border-bottom: 3px solid #B81919;
+}
+
+div.titulo-comida{
+	width: 1094px;
+	height: 37px;
+	background-color: #D70F0F;
+	padding-top: 6px;
+	text-align: center;
+	color: #F8CF2C;
+	border-top: 3px solid #B81919;
+	border-bottom: 3px solid #B81919;
+	display: flex;
+}
+
+article.titulo-comida{
+	width: 366.66px;
+	height: 37px;
+
+}
+
+article.menu-regresar{
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+div.menu-comida-menu{
+	width: 1094px;
+	height: 300px;
+	display: flex;
+}
+
+h2.titulo-comida{
+	font-family: "Tahoma", "Arial";
+}
+
+figure.menu-filas{
+	width: 364.67px;
+	height: 300px;
+	background-color: #FFFF;
+}
+
+img.comida{
+	width: 300px;
+	height: 300px;
+	margin-left: 30px;
+}
+
+figcaption{
+	margin-top: -25px;
+	text-align: center;
+	font-family: "Tahoma", "Arial";
+	font-weight: bold;
+}
+
+footer{
+	width: 1094px;
+	height: 97px;
+	margin: 0 auto;
+	background-color: #D70F0F;
+	border-left: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+	border-bottom: 3px solid #B81919;
+    text-align: center;
+    padding-top: 50px;
+    color: #F8CF2C;
+    font-family: "Tahoma","Arial";
+}
+
+h2.pie-pagina{
+	font-size: 20px;
+}
+
+p.pie-pagina{
+	font-size: 15px;
+}

@@ -1,0 +1,184 @@
+/*Color Amarillo: #F8CF2C*/
+/*Color rojo: #B81919*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #F8CF2C;
+}
+
+header{
+	width: 1094px;
+	height: 227px;
+	margin: 0 auto;
+	background-color: #D70F0F;
+	display: flex;
+	border-left: 3px solid #B81919;
+	border-top: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+}
+
+div.header-article-vacio{
+	width: 366.66px;
+}
+
+div.header-article-logo{
+	width: 366.66px;
+	height: 230px;
+}
+
+img.mcdonalds-logo{
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+div.header-article-redes{
+	width: 366.66px;
+	height: 230px;
+}
+
+img.mcdonalds-redes{
+	margin-top: 185px;
+	margin-left: 165px;
+}
+
+nav{
+	width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+	background-color: #735151;
+	display: flex;
+}
+
+div.menu-espacio-extra{
+	width: 400px;
+	height: 60px;
+	background-color: #D70F0F;
+	border-left: 3px solid #B81919;
+}
+
+div.menu{
+	width: 590px;
+	height: 37px;
+	background-color: #FFFFFF;
+	padding-top: 19px;
+	padding-left: 110px;
+	border: 4px solid #B81919;
+	border-bottom: 0;
+}
+
+a{
+	margin-left: 60px;
+	text-decoration: none;
+	background-color: #F8CF2C;
+	padding: 10px;
+	font-family: "Tahoma", "Arial";
+	color: #D70F0F;
+	border-radius: 10px;
+	border: 2px solid #B81919;
+}
+
+a.home{
+	border-bottom: 7px solid #B81919;
+}
+
+a:hover{
+	background-color: #FBE44D;
+}
+
+section.promocion_1{
+	width: 1094px;
+	height: 340px;
+	margin: 0 auto;
+	border-left: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+	border-top: 3px solid #B81919;
+}
+
+img.promocion-mcduo{
+	width: 1094px;
+	height: 340px;
+}
+
+section.promociones{
+	width: 1094px;
+	height: 760px;
+	margin: 0 auto;
+	padding-top: 20px;
+	border: 3px solid #B81919;
+}
+
+article.promocion-fila1{
+	width: 1000px;
+	height: 350px;
+	background-color: #D70F0F;
+	margin-left: 50px;
+	display: flex;
+	border-radius: 20px;
+	border: 3px solid #F8CF2C;
+	box-shadow: 10px 10px 20px #050505;
+}
+
+figure.promocion-fila1{
+	width: 333.33px;
+	height: 300px;
+	background-color: #F06D6D;
+	margin: 24px 20px;
+	margin-left: 14px;
+	border-radius: 10px;
+}
+
+figure.figura-centro{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+img.promocion-fila1{
+	width: 310px;
+	height: 300px;
+	border-radius: 10px;
+	border: 3px solid #F8CF2C;
+}
+
+article.promocion-fila-centro{
+	margin-top: 30px;
+}
+
+section.promocion-mctextas{
+	width: 1094px;
+	height: 334px;
+	margin: 0 auto;
+	margin-top: -3px;
+	background-color: #5720D5;
+	border: 3px solid #B81919;
+}
+
+img.promocion-mctextas{
+	width: 1094px;
+	height: 334px;
+}
+
+footer{
+	width: 1094px;
+	height: 97px;
+	margin: 0 auto;
+	background-color: #D70F0F;
+	border-left: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+	border-bottom: 3px solid #B81919;
+    text-align: center;
+    padding-top: 50px;
+    color: #F8CF2C;
+    font-family: "Tahoma","Arial";
+}
+
+h2.pie-pagina{
+	font-size: 20px;
+}
+
+p.pie-pagina{
+	font-size: 15px;
+}

@@ -1,0 +1,214 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #F8CF2C;
+}
+
+header{
+	width: 1094px;
+	height: 227px;
+	margin: 0 auto;
+	background-color: #D70F0F;
+	display: flex;
+	border-left: 3px solid #B81919;
+	border-top: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+}
+
+div.header-article-vacio{
+	width: 366.66px;
+}
+
+div.header-article-logo{
+	width: 366.66px;
+	height: 230px;
+}
+
+img.mcdonalds-logo{
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+div.header-article-redes{
+	width: 366.66px;
+	height: 230px;
+}
+
+img.mcdonalds-redes{
+	margin-top: 185px;
+	margin-left: 165px;
+}
+
+nav{
+	width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+	background-color: #735151;
+	display: flex;
+}
+
+div.menu-espacio-extra{
+	width: 400px;
+	height: 60px;
+	background-color: #D70F0F;
+	border-left: 3px solid #B81919;
+}
+
+div.menu{
+	width: 590px;
+	height: 37px;
+	background-color: #FFFFFF;
+	padding-top: 19px;
+	padding-left: 110px;
+	border: 4px solid #B81919;
+	border-bottom: 0;
+}
+
+a{
+	margin-left: 60px;
+	text-decoration: none;
+	background-color: #F8CF2C;
+	padding: 10px;
+	font-family: "Tahoma", "Arial";
+	color: #D70F0F;
+	border-radius: 10px;
+	border: 2px solid #B81919;
+}
+
+a.contacto{
+	border-bottom: 7px solid #B81919;
+}
+
+a:hover{
+	background-color: #FBE44D;
+}
+
+section{
+	width: 1094px;
+	height: 444px;
+	margin: 0 auto;
+	border: 3px solid #B81919;
+	display: flex;
+}
+
+article{
+	width: 366.66px;
+	height: 400px;
+	margin: 20px 20px;
+	border-radius: 10px;
+	background-color: #D70F0F;
+	border: 3px solid #B81919;
+	box-shadow: 3px 8px 13px #050505;
+}
+
+h2{
+	font-family: "Tahoma", "Arial";
+	color: #F8CF2C;
+	text-align: center;
+	margin-top: 15px;
+}
+
+p.telefono{
+	font-family: "Times", "Arial";
+	color: #F8CF2C;
+	text-align: center;
+	margin-top: 120px;
+	font-size: 60px;
+}
+
+p.direccion{
+	font-family: "Times", "Arial";
+	margin: 25px;
+	color: #F8CF2C;
+	text-align: center;
+	margin-top: 90px;
+	font-size: 30px;
+}
+
+p.redes-emoji{
+	font-family: "Tahoma", "Arial";
+	margin: 25px;
+	color: #F8CF2C;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 80px;
+}
+
+div.redes-emoji{
+	height: 35px;
+	background-color: #F8CF2C;
+	padding-top: 15px;
+	margin: 0px 15px;
+	border-radius: 5px; 
+	box-shadow: 3px 8px 13px #050505;
+	margin-top: 20px;
+}
+
+a.redes-emoji{
+	background: none;
+	margin: 0px;
+	border-radius: 0;
+	border: none;
+	background-repeat: no-repeat;
+	height: 30px;
+	margin-left: 15px;
+}
+
+a.redes-emoji:hover{
+	border: 2px solid #B81919;
+	border-radius: 10px;
+}
+
+a.facebook{
+	background-image: url(/img/logo-redes/facebook.png);
+}
+
+a.twitter{
+	background-image: url(/img/logo-redes/twitter.png);
+}
+
+a.instagram{
+	background-image: url(/img/logo-redes/instagram.png);
+}
+
+a.youtube{
+	background-image: url(/img/logo-redes/youtube.png);
+}
+
+a.spotify{
+	background-image: url(/img/logo-redes/spotify.png);
+}
+
+a.spotify:hover{
+	border-radius: 20px;
+}
+
+article.redes-sociales{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+footer{
+	width: 1094px;
+	height: 97px;
+	margin: 0 auto;
+	background-color: #D70F0F;
+	border-left: 3px solid #B81919;
+	border-right: 3px solid #B81919;
+	border-bottom: 3px solid #B81919;
+    text-align: center;
+    padding-top: 50px;
+    color: #F8CF2C;
+    font-family: "Tahoma","Arial";
+}
+
+h2.pie-pagina{
+	font-size: 20px;
+}
+
+p.pie-pagina{
+	font-size: 15px;
+}
